@@ -24,6 +24,13 @@ const heroes = [
         name: 'Wolverine',
         owner: 'Marvel'
     },
+    {
+        id: 6,
+        name: 'Lilo',
+        owner: 'Oscar'
+    }
 ];
 
-const owners = ['DC','Marvel'];
+export const owners = ['DC','Marvel'];
+
+export default heroes;
