@@ -13,6 +13,8 @@ console.log("AXIOS")
         }
  })
 
+ export default giphyApi
+
  giphyApi.get('/random')
  .then(response => {
     // console.log(response.data)
